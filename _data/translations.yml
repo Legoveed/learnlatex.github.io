@@ -23,6 +23,7 @@ change-language:
   hi: "इस पृष्ठ को किसी अन्य भाषा में पढ़ें"
   mr: "हे पृष्ठ दुसऱ्या भाषेत वाचा"
   ca: "Llegeix aquesta pàgina en un idioma diferent"
+  ru: "Читайте эту страницу на другом языке"
 skip-link:
   de: "Zum Hauptinhalt springen"
   en: "Skip to main content"
@@ -40,6 +41,7 @@ skip-link:
   hi: "मुख्य विषय पर जाएँ"
   mr: "मुख्य विषयावर जा"
   ca: "Saltar al contingut principal"
+  ru: "Пролистать к основному содержимому"
 heading_meta:
   de: "Meta"
   en: "Meta"
@@ -57,6 +59,7 @@ heading_meta:
   hi: "अधिक"
   mr: "अधिक"
   ca: "Meta"
+  ru: "Мета"
 heading_navigation:
   de: "Navigation"
   en: "Navigation"
@@ -74,6 +77,7 @@ heading_navigation:
   hi: "मार्गदर्शन पृष्ठ"
   mr: "पृष्ठे"
   ca: "Navegació"
+  ru: "Навигация"
 heading_planet:
   de: "Planet"
   en: "Planet"
@@ -91,6 +95,7 @@ heading_planet:
   hi: "LaTeX-विश्व"
   mr: "लाटेक्-विश्व"
   ca: "Planeta"
+  ru: "Планета"
 informational-elements_lesson:
   de: "Lektion"
   en: "Lesson"
@@ -108,6 +113,7 @@ informational-elements_lesson:
   hi: "पाठ"
   mr: "प्रकरण"
   ca: "Lliçó"
+  ru: "Урок"
 informational-elements_search:
   de: "Suche"
   en: "Search"
@@ -125,6 +131,7 @@ informational-elements_search:
   hi: "खोज करें"
   mr: "शोधपट्टी"
   ca: "Cercar"
+  ru: "Поиск"
 navigational-elements_home:
   de: "Startseite"
   en: "Home"
@@ -142,6 +149,7 @@ navigational-elements_home:
   hi: "मुख्यपृष्ठ"
   mr: "मुखपृष्ठ"
   ca: "Pàgina d'inici"
+  ru: "Домой"
 navigational-elements_mission:
   de: "Mission"
   en: "Mission"
@@ -159,6 +167,7 @@ navigational-elements_mission:
   hi: "मिशन"
   mr: "उद्दिष्ट"
   ca: "Missió"
+  ru: "Задание"
 navigational-elements_help:
   de: "Hilfe"
   en: "Help"
@@ -176,6 +185,7 @@ navigational-elements_help:
   hi: "मदद"
   mr: "मदत"
   ca: "Ajuda"
+  ru: "Помощь"
 navigational-elements_settings:
   de: "Einstellungen"
   en: "Settings"
@@ -193,6 +203,7 @@ navigational-elements_settings:
   hi: "सेटिंग्स"
   mr: "प्राधान्ये"
   ca: "Configuració"
+  ru: "Настройки"
 navigational-elements_contact:
   de: "Kontakt"
   en: "Contact"
@@ -210,6 +221,7 @@ navigational-elements_contact:
   hi: "संपर्क"
   mr: "संपर्क"
   ca: "Contacte"
+  ru: "Контакты"
 navigational-elements_licenses:
   de: "Lizenzen"
   en: "Licenses"
@@ -227,6 +239,7 @@ navigational-elements_licenses:
   hi: "लाइसेंस"
   mr: "परवाने"
   ca: "Llicències"
+  ru: "Лицензии"
 navigational-elements_privacy:
   de: "Datenschutz"
   en: "Privacy"
@@ -244,6 +257,7 @@ navigational-elements_privacy:
   hi: "गोपनीयता"
   mr: "गोपनीयता धोरण"
   ca: "Privacitat"
+  ru: "Конфиденциальность"
 navigational-elements_open-an-issue:
   de: "Problem melden"
   en: "Open an issue"
@@ -261,6 +275,7 @@ navigational-elements_open-an-issue:
   hi: "Issue Open करें"
   mr: "सुधारणा/तक्रार नोंदवा"
   ca: "Obrir un problema"
+  ru: "Сообщить о проблеме"
 navigational-elements_page-source:
   de: "Seitenquelltext"
   en: "Page source"
@@ -278,6 +293,7 @@ navigational-elements_page-source:
   hi: "पृष्ठ स्रोत"
   mr: "पृष्ठाचे आज्ञावलीय बीज"
   ca: "Font de la pàgina"
+  ru: "Код страницы"
 navigational-elements_more:
   de: "Mehr zu diesem Thema"
   en: "More on this topic"
@@ -295,6 +311,7 @@ navigational-elements_more:
   hi: "इस विषय पर और अधिक मदद"
   mr: "ह्याबाबत अधिक माहिती"
   ca: "Més sobre aquest tema"
+  ru: "Больше по этой теме"
 navigational-elements_next:
   de: "Nächste Lektion"
   en: "Next lesson"
@@ -312,6 +329,7 @@ navigational-elements_next:
   hi: "अगला पाठ"
   mr: "पुढील प्रकरण"
   ca: "Següent lliçó"
+  ru: "Следующий урок"
 navigational-elements_nextmain:
   de: "Nächste Hauptlektion"
   en: "Next main lesson"
@@ -329,6 +347,7 @@ navigational-elements_nextmain:
   hi: "अगला पाठ"
   mr: "पुढील मुख्य प्रकरण"
   ca: "Següent lliçó principal"
+  ru: "Следующий основной урок"
 navigational-elements_return:
   de: "Zurück zur Hauptlektion"
   en: "Return to main lesson"
@@ -346,6 +365,7 @@ navigational-elements_return:
   hi: "मुख्य पाठ पर वापस जाएँ"
   mr: "मुख्य प्रकरणाकडे परत जा"
   ca: "Tornar a la lliçó principal"
+  ru: "Вернуться к основному уроку"
 navigational-elements_toc:
   de: "Inhaltsverzeichnis"
   en: "Table of Contents"
@@ -363,6 +383,7 @@ navigational-elements_toc:
   hi: "अनुक्रमणिका"
   mr: "अनुक्रमणिका"
   ca: "Taula de contingut"
+  ru: "Содержание"
 navigational-elements_latex_project:
   de: "The LaTeX Project"
   en: "The LaTeX Project"
@@ -380,6 +401,7 @@ navigational-elements_latex_project:
   hi: "LaTeX परियोजना"
   mr: "लाटेक् प्रकल्प"
   ca: "The LaTeX Project"
+  ru: "Проект LaTeX"
 navigational-elements_tug:
   de: "TeX Users Group"
   en: "TeX Users Group"
@@ -397,6 +419,7 @@ navigational-elements_tug:
   hi: "TeX Users समूह"
   mr: "टेक् यूजर्स ग्रुप"
   ca: "TeX Users Group"
+  ru: "Группа пользователей TeX"
 navigational-elements_ctan:
   de: "CTAN"
   en: "CTAN"
@@ -414,6 +437,7 @@ navigational-elements_ctan:
   hi: "सीटैन"
   mr: "सीटॅन"
   ca: "CTAN"
+  ru: "CTAN"
 
 # optional list of localised numbers 0-20 (fr alphabetic just for testing)
 #    fr: "*,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t"
