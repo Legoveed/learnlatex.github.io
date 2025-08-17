@@ -1,9 +1,9 @@
 ---
 layout: "page"
-lang: "en"
-title: "Using the learnlatex.org site"
-description: "This page explains the learnlatex.org website itself and how to best make use of it."
-permalink: /en/help
+lang: "ru"
+title: "Использование сайта learnlatex.org"
+description: "Эта страница поясняет сайт learnlatex.org и то, как им лучше всего пользоваться."
+permalink: /ru/help
 ---
 <script>
   function acesettings() {
@@ -11,30 +11,30 @@ permalink: /en/help
   }
 </script>
 
-# Help
+# Помощь
 
 
-## Navigating the site
+## Навигация по сайту
 
-The course consists of 16 core lessons that can be reached from the
-[table of contents]({{ "/" | absolute_url | append: page.lang | append: "/#toc" }}) on the [start page](./).
+Курс состоит из 16 основных уроков, которые доступны в
+[содержании]({{ "/" | absolute_url | append: page.lang | append: "/#toc" }}) на [стартовой странице](./).
 
-Each lesson has a link to one associated lesson on the same subject
-that goes into greater depth. It should be possible to work through
-all 16 lessons _without_ reading the additional lessons.
+Каждый урок содержит ссылку на другой урок по той же теме,
+который содержит углублённый материал. Можно пройти все 16 уроков
+_без_ чтения дополнительных уроков.
 
-At the end of the course there are one or more lessons specific to the
-language being used for the lessons, and finally a gallery of examples
-of packages demonstrating LaTeX use not covered by this course.
+В конце курса приведены один или более специальных уроков по языку, использованному
+на самих уроках, и, наконец, подборка примеров использования
+пакетов LaTeX, которые не были показаны в этом курсе.
 
 ---
 
-## Examples
+## Примеры
 
-### Running the examples
+### Запуск примеров
 
-Each example consists of a complete small LaTeX document shown within
-the page like this:
+Каждый пример состоит из небольшого документа LaTeX, показанного
+на странице вот так:
 
 ```latex
 \documentclass{article}
@@ -45,157 +45,153 @@ Example text.
 \end{document}
 ```
 
-Each example is complete. However you may wish to edit it to make small
-changes, perhaps as part of an Exercise set at the end of the lesson.
+Каждый пример полон. Однако вы можете отредактировать его, сделав
+небольшие изменения, например как часть Упражнения из конца урока.
 
-There are two editors being used on the site (depending on the page).
+На сайте используются два редактора (в зависимости от страницы).
 
 * [ACE](https://ace.c9.io/).
 
-  You may customise the theme used in the editor (for example using a
-  dark theme with light text on a dark background) on the [Site Settings](settings) page.
-  A convenient way to experiment with different themes is to to use <kbd>Ctrl</kbd>+<kbd>,</kbd> (<kbd>⌘</kbd>+<kbd>,</kbd> on Mac)
-  while on any example in the site. [This displays a panel](javascript:acesettings()) which allows you to change all the ACE settings.
+  Вы можете изменить используемую в редакторе тему (например, тёмную тему
+  со светлым текстым на тёмном фоне) на странице [Натройки Сайта](settings).
+  Самый удобный путь, чтобы экспериментировать с разными темами, это использовать <kbd>Ctrl</kbd>+<kbd>,</kbd> (<kbd>⌘</kbd>+<kbd>,</kbd> на Mac)
+  на любом примере с сайта. [Здесь показана панель](javascript:acesettings()), которая позволяет вам менять все настройки ACE.
 
-  The ACE repository has a [useful page of editor keyboard shortcuts](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts).
+ Репозиторий ACE имеет [удобную страницу с сочетаниями клавиш](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts).
 
 
 * [CodeMirror6](https://codemirror.net/)
 
-  Currently two CodeMirror themes are provided (a light and a dark).
+  На текущий момент в CodeMirror доступны две темы (светлая и тёмная).
 
-#### Three ways to run the example
+#### Три способа запустить пример
 
-* Use the Overleaf service
-* Use the TeXLive.net service
-* Use a locally installed TeX system
+* Использовать сервис Overleaf
+* Использовать сервис TeXLive.net
+* Использовать локально установленную систему TeX
 
-##### Use the Overleaf service
+##### Использование сервиса Overleaf
 
-Overleaf is one of the most popular online LaTeX editing services. The 
-<button>Open in Overleaf</button> button, below the example, will submit the 
-code to [Overleaf](https://www.overleaf.com/about).
+Overleaf - один из самых популярных онлайн-сервисов для редактирования LaTeX. Кнопка 
+<button>Открыть через Overleaf</button> под примером отправит код 
+на [Overleaf](https://www.overleaf.com/about).
 
-If you do not have an account, or the account details are not
-already cached in your browser, then you will be redirected to a
-login page where you may login or register with Overleaf. This is a
-free service but does require you to give some details and agree to
-terms and conditions.
+Если у вас нет аккаунта или данные аккаунты не находятся
+в кэше браузера, вы будете переадресованы на
+страницу входа, где вы сможете войти или зарегистрировать на Overleaf. Хотя это
+бесплатный сервис, он потребует у вас личные данные и согласие с
+правилами и условиями.
 
-If your Overleaf account is already cached in your browser, then
-Overleaf will be opened in a new tab, with a new
-project with the code. You may then edit it in
-Overleaf which will simultaneously run LaTeX on your code showing
-the resulting output or error log.
+Если ваш аккаунт в Overleaf уже находится в кэше браузера, то
+Overleaf будет открыт в новой вкладке с новым проектом,
+содержащим код примера. Вы можете отердактировать его в
+Overleaf, что сразу же запустит LaTeX с вашим кодом, показав
+вывод или лог с ошибками.
 
-Unlike documents processed at TeXLive.net, you may save your project
-in your Overleaf account and return to it later.
+В отличие от кодов, запущенных через TeXLive.net, вы сможете сохранить проект
+в вашем аккаунте на Overleaf и вернуться к нему позже.
 
-##### Use the TeXLive.net service
+##### Использование сервиса TeXLive.net
 
-The <button>Run at TeXLive.net</button> button, below the example, will submit the code to the 
-[TeXLive.net](https://texlive.net) service[^1].
+Кнопка <button>Запустить в TeXLive.net</button> под примером отправит код 
+на сервис [TeXLive.net](https://texlive.net)[^1].
 
-The TeXLive.net service was developed specifically to support this site, and
-in particular makes use of [PDF.js](https://mozilla.github.io/pdf.js/)
-to enable display of PDF on mobile and other browsers without built in PDF 
-readers.
+Сервис TeXLive.net был разработан специально для этого сайта и, в частности,
+использует [PDF.js](https://mozilla.github.io/pdf.js/)
+для отображения файлов формата PDF на мобильных устройствах и браузеров без встроенных PDF-читалок.
 
-The resulting PDF document (or section of the error log) will be
-shown inline immediately below the example. A <button>Delete
-Output</button> button will be provided so that you may remove this output
-(or you may leave it in place and continue the rest of the lesson
-below).
+Итоговый PDF-документ (или лог с ошибками) будет
+моментально показан под примеров. Кнопка <button>Стереть
+вывод</button> может быть использована, чтобы удалить этот вывод.
+(или вы можете оставить его, продолжив изучать остаток урока далее).
 
-Note that **TeXLive.net** requires no login or signup of any sort
-so it is very convenient for small examples, but this site
-provides no  mechanism to save your document. Any changes that you
-make to the example are lost if you move off the page.
+Обратите внимание, что **TeXLive.net** не требует никакого входа или регистрации,
+так что вполне подходит для небольших примеров, при этом
+механизм сохранения на сайте отсутствует. Любое изменение, которое вы
+сделаете в примере, будет потеряно, как только вы покинете страницу.
 
-##### Locally installed TeX system
+##### Локально установленная система TeX
 
-If you have a TeX system installed locally, then you may copy the
-example code off the page, either explicitly selecting it, or by
-using select all keyboard shortcuts in the editor
+Если у вас есть система TeX, установленная локально, то вы можете скопировать
+пример кода со страницы, полность выделив его или
+использовав сочетание клавиш для выделения всего текста в редакторе
 (<kbd>Ctrl</kbd>+<kbd>A</kbd> <kbd>Ctrl</kbd>+<kbd>C</kbd>
-in windows for example). This will place the code in your operating system
-clipboard so you can start a blank document using your local
-editor, and paste in the text.
+на Windows, например). Этот поместит код в буфер обмена в вашей
+операционной системе, после чего вы можете, создав пустой файл в вашем локальном
+редакторе, вставить туда код.
 
-### Troubleshooting
+### Устранение проблем
 
-Our examples are based around using an up-to-date LaTeX installation. They all 
-work with both of our online demonstration systems, so if you get errors with 
-the examples we provide, you might want to check if your LaTeX system is 
-up-to-date.
-
----
-
-## Choosing the TeX engine
-
-When submitting example documents, by default the `pdflatex` engine will be used.
-
-You can force the choice of `latex`, `pdflatex`, `xelatex`, `lualatex`,
-`platex` or `uplatex` by using a comment of the form:
-
-`% !TEX ` _any text_ `lualatex`
-
-where the white space at the start is optional and case is ignored as
-is _any text_ between the first and last word.
-
-This allows the form `% !TEX program=pdflatex` used by some TeX editors
-but does not require the `program=` and is currently restricted to
-specifying just one of the engines that are supported on
-the online systems being used.
-
-You can see an example of a comment being used to specify LuaLaTeX in
-[some of the examples on this site](more-14).
-
-If `platex` or `uplatex` is specified; then the `dvipdfmx` program is
-also used to produce the PDF result from the DVI file that these variants generate.
-Similarly `dvips` and `ps2pdf` are used if `latex` is specified.
-
-If the engine is not specified in a `% !TeX` comment, then `pdflatex` will be used
-unless you have specified a default TeX engine on the [Site Settings](settings) page.
+Наши примеры основаны на современных версиях установки LaTeX. Все они
+с обеими нашими системами онлайн-редактирования, так что если вы получаете ошибки
+в наших примерах, вам следует проверить вашу систему LaTeX на актуальность 
+версии.
 
 ---
 
-## Choosing how to display the output
+## Выбор движка TeX
 
-If you use the TeXLive.net system, then the PDF
-output from running an example is shown using
-[PDF.js](https://mozilla.github.io/pdf.js/) by default. This provides
-consistent behavior over the widest range of browsers.
+При отправке примеров документов, по умолчанию будет использоваться движок `pdflatex`.
 
-If you would prefer to use your browser's default PDF reader (either
-its built in one, or an external application that you have configured)
-then add a comment of the form:
+Вы можете самостоятельно установить движок `latex`, `pdflatex`, `xelatex`, `lualatex`,
+`platex` или `uplatex`, используя комментарий следующего формата:
 
-`% !TEX ` _any text_ `pdf`
+`% !TEX ` _lyuboy text_ `lualatex`
 
-The default behavior can be explicitly specified by using `pdfjs` as
-the final token. For debugging you may sometimes want the log file
-returned, even if the document produces a PDF with
-no errors. This can be specified by using `log` as the final token in
-the comment.
+Здесь пробелы в начале необязательны и игнорируются, как и
+_lyuboy text_ между первым и последним словами.
 
-As an alternative to using a `% !TeX` comment, you may specify the
-site default return parameter on the [Site Settings](settings)
-page. The Settings are specific to each browser, so for example you
-may choose to use the default `pdfjs` setting on your mobile device,
-but use `pdf` on your desktop browser to use its default PDF rendering.
+Это позволяет использовать формат `% !TEX program=pdflatex`, применяющийся в некоторых редакторах TeX,
+не требуя аргумент `program=` и в настоящее время ограничен,
+выбирая один конкретный движок из поддерживаемых для использования в онлайн-системе.
+
+Вы можете посмотреть пример комментария для выбора движка LuaLaTeX в
+[некоторых примерах на сайте](more-14).
+
+Если выбраны `platex` или `uplatex`, то так же используется программа `dvipdfmx`
+для создания файла PDF из файла DVI, который генерируется этим движками.
+Аналогично используется `dvips` или `ps2pdf` при выборе `latex`.
+
+Если движок не выбран с помощбю комментария `% !TeX`, будет использован `pdflatex`,
+пока вы не определите движок TeX по умолчанию на странице [Настройки Сайта](settings).
+
+---
+
+## Выбор варианта отображения вывода
+
+Если вы используете систему TeXLive.net, то вывод в PDF
+из запущенного примера показывается по умолчанию с помощью
+[PDF.js](https://mozilla.github.io/pdf.js/). Это обеспечивает
+одинаковый вывод в большинстве браузеров.
+
+Если вы хотите использовать вашу PDF-читалку из браузера, установленную по умолчанию (либо
+встроенный в него, либо установленный в отдельном приложении),
+то добавьте комментарий следуюшего формата:
+
+`% !TEX ` _lyuboy  text_ `pdf`
+
+Поведение по умолчанию может быть явно указан с помощью `pdfjs` как
+последний токен. Для отладки вам иногда может понадобиться файл с логами,
+даже если документ генерирует файл PDF без
+ошибок. Это может быть указано с помощью `log` финальным токеном этого комментария.
+
+В качестве альтернативы использованию комментария `% !TeX`, вы можете указать
+параметр вывод по умолчанию на странице [Настройки Сайта](settings).
+Настройки уникальны для каждого браузера, так что, например,
+вы можете установить по умолчанию `pdfjs` на вашем мобильном устройстве,
+но использовать `pdf` в браузере на ПК для создания PDF по умолчанию.
 
 
 ---
 
-## HTML output (make4ht, LaTeXML, lwarp)
+## Вывод HTML (make4ht, LaTeXML, lwarp)
 
-If using the TeXLive.net system, then additional return options,
-`make4ht`, `LaTeXML` or `lwarp` may be specified. These return one or more HTML pages
-in the frame within the page. It may be specified at the same time
-as `xelatex` or `lualatex` as well as the default `pdflatex` processing.
+Если вы используете систему TeXLive.net, то можете указать дополнительные параметры вывода,
+`make4ht`, `LaTeXML` или `lwarp`. Они возвращают одну или несколько HTML-страниц
+в рамке внутри страницы. Это может быть указано вместе с
+`xelatex` или `lualatex` так же, как и испольхование `pdflatex` по умолчанию.
 
-To enable this output, add a comment of the form:
+Чтобы включить этот вывод, добавьте комментарий следующего формата:
 
 
 ```
@@ -204,30 +200,30 @@ To enable this output, add a comment of the form:
 {: .noedit :}
 
 
-Replacing `make4ht` by `LaTeXML` or `lwarp` to specify those systems.
+Вы можете заменить `make4ht` на `LaTeXML` или `lwarp`, чтобы указать эти системы.
 
 
 
-Alternatively you may specify `make4ht`, `LaTeXML` or `lwarp` as the default return option
-on the [Site Settings](settings) page.
+В качестве альтернативы, вы можете указать `make4ht`, `LaTeXML` или `lwarp` как способы вывода по умолчанию
+на странице [Настройки Сайта](settings).
 
 
-If using a locally installed TeX system, the same output as the `make4ht` option may be obtained
-by executing
+Если вы используете локально установленную систему TeX, вы можете получтить такой же вывод, как при использовании `make4ht`,
+выполнив
 
 ```
 make4ht  document.tex "learnlatex4ht,2,mathml,mathjax,svg"
 ```
 {: .noedit :}
 
-with the addional option `-x` or `-l` if XeLaTeX or LuaLaTeX are specified.
+с дополнительным параметров `-x` или `-l`, если используются XeLaTeX или LuaLaTeX.
 
-When running locally, other configurations would be possible. See the [make4ht
-manual](https://texdoc.org/pkg/make4ht).
+Если вы запускаете код локально, то возможны и другии конфигурации. Смотрите [руководство по 
+make4ht](https://texdoc.org/pkg/make4ht).
 
 
-For `LaTeXML` to run locally, you would need to install LaTeXML (it is not part of TeX Live or MiKTeX)
-and use
+Чтобы локально запустить `LaTeXML`, вам понадобится установить LaTeXML (он не входит в TeX Live или MiKTeX)
+и использовать
 
 ```
 latexml document.tex > document.xml
@@ -237,21 +233,21 @@ latexmlpost --format=html5 \
 ```
 {: .noedit :}
 
-Many other LaTeXML configurations are possible,
-[as described in the manual](https://dlmf.nist.gov/LaTeXML/manual/).
+Также возможно множество других конфигураций LaTeXML,
+[описанных в руководстве](https://dlmf.nist.gov/LaTeXML/manual/).
 
 
-The `lwarp` configuration is not documented here, it is somewhat experimental and subject to change.
-The current version can be seen at the
-[source repository](https://github.com/davidcarlisle/latexcgi/blob/main/lwarp/latexcgilwarp).
+Конфигурация `lwarp` здесь не разбирается, так как является экспериментальной и может изменяться.
+Актуальная версия размешена в 
+[репозитории с исходным кодом](https://github.com/davidcarlisle/latexcgi/blob/main/lwarp/latexcgilwarp).
 
 
 ---
 
-[^1]: Note that during development of the site we have also used 
-      [LaTeX.Online](https://latexonline.cc/) and
+[^1]: Обратите внимание, что во время разработки сайта мы так же использовали  
+      [LaTeX.Online](https://latexonline.cc/) и
       [LaTeX-on-HTTP](https://github.com/YtoTech/latex-on-http)
-      and we thank the developers of those services for making updates to enable
-      the examples on this site to be available at an early stage.
+      и благодарим разработчиков этих сервисов за выпуск обновлений, позволявших
+      примерам на этом сайте быть доступными на ранней стадии.
 
 
