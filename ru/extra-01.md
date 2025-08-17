@@ -1,72 +1,72 @@
 ---
 layout: "lesson"
-lang: "en"
-title: "LaTeX Showcase - Examples for further study"
-description: "This lesson shows assorted examples of other popular LaTeX packages that were not covered in the main lessons."
-toc-anchor-text: "LaTeX Showcase"
-toc-description: "Examples for further study."
+lang: "ru"
+title: "Презентация LaTeX - примеры для дальнейшего изучения"
+description: "Этот урок показывает различные пакеты LaTeX, которые не были освящены в основных уроках."
+toc-anchor-text: "Презентация LaTeX"
+toc-description: "Примеры для дальнейшего изучения."
 ---
 
-# Showcase
+# Презентация
 
 <span
-  class="summary">This lesson shows assorted examples of other popular LaTeX packages that were not covered in the main lessons.</span>
+  class="summary">Этот урок показывает различные пакеты LaTeX, которые не были освящены в основных уроках.</span>
 
-This course has given an overview of the core features of LaTeX.
-LaTeX has vast array of extension packages and is used in many subject
-areas.  We give here some examples, with no explanation here but links
-to the package documentation at [texdoc.org](https://texdoc.org).
-The examples are taken from the package documentation unless otherwise noted.
+В этом курсе представлен обзор основных функций LaTeX.
+LaTeX имеет широкий спектр пакетов для расширения возможностей и используется во многих областях.  
+Здесь мы приведём несколько примеров без пояснений, но со ссылками
+на документацию на [texdoc.org](https://texdoc.org).
+Примеры взяты из документаций к пакетам, если не сказано иное.
 
 <p
-  class="hint">Note that inclusion here is not intended as an endorsement of the package over other similar packages, we just aim for a small sample showing a range of areas not otherwise covered in this course.</p>
+  class="hint">Обратите внимание, что включение пакета сюда не означает его поддержку в сравнении с другими похожими пакетами, наша цель лишь привести несколько примеров широты спектра возможностей, не показанных в этом курсе.</p>
 
-## Chemistry
+## Химия
 
-Package: [`mhchem`](https://texdoc.org/pkg/mhchem)
+Пакет: [`mhchem`](https://texdoc.org/pkg/mhchem)
 
 {% include extra-01-example-mchem.md %}
 
-## Linguistics
+## Лингвистика
 
-Package: [`forest`](https://texdoc.org/pkg/forest)
+Пакет: [`forest`](https://texdoc.org/pkg/forest)
 
 {% include extra-01-example-forest.md %}
 
-## Chess
+## Шахматы
 
 <!-- not 2017 -->
-Package: [`xskak`](https://texdoc.org/pkg/xskak)
+Пакет: [`xskak`](https://texdoc.org/pkg/xskak)
 
 {% include extra-01-example-xskak.md %}
 
 
-## Poetry
+## Поэзия
 
-Class: [`memoir`](https://texdoc.org/pkg/memoir)
+Класс: [`memoir`](https://texdoc.org/pkg/memoir)
 
 {% include extra-01-example-memoir.md %}
 
 
-## Drawing
+## Рисование
 <!-- not 2017 -->
-Package: [`tikz`](https://texdoc.org/pkg/tikz)
+Пакет: [`tikz`](https://texdoc.org/pkg/tikz)
 
 
 {% include extra-01-example-tikz.md %}
 
 
-## Function plotting
+## Графики функций
 
-Package: [`pgfplots`](https://texdoc.org/pkg/pgfplots)
+Пакет: [`pgfplots`](https://texdoc.org/pkg/pgfplots)
 
 
 {% include extra-01-example-pgfplots.md %}
 
 
-## Music
+## Музыка
 
-Package: [`musixtex`](https://texdoc.org/pkg/musixtex)
+Пакет: [`musixtex`](https://texdoc.org/pkg/musixtex)
 
 
 
