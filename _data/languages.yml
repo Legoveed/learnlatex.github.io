@@ -63,6 +63,10 @@
   label-regional: 中文（繁體）
   label-english: Traditional Chinese
 
+- language-code: ru
+  label-regional: Русский
+  label-english: Russian
+
 # - language-code: tr
 #   label-regional: Türkçe
 #   label-english: Turkish
