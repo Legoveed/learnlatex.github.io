@@ -1,21 +1,21 @@
 ---
 layout: "page"
-lang: "en"
-title: Contact
-permalink: /en/contact
+lang: "ru"
+title: Контакты
+permalink: /ru/contact
 ---
 
-# Contact
+# Котакты
 
-## Individual Support
+## Индивидуальная помощь
 
-Unfortunately we do not have the resources to offer individual help on LaTeX problems and will therefore not reply to emails seeking support. See [The LaTeX Project's help page](https://www.latex-project.org/help/) for ways to get user support.
+К сожалению, у нас нет возможности предоставлять индивидуальную помощь по проблемам с LaTeX и, поэтому, не будем отвечать на электронные письма с подобными просьбами. Посмотрите [страницу поддержки на The LaTeX Project'](https://www.latex-project.org/help/), чтобы узнать, как получить индивидуальную помощь.
 
-## Website Team
+## Команда сайта
 
-The [source code of this website](https://github.com/learnlatex/learnlatex.github.io/) is on [GitHub](https://github.com/learnlatex/), please see [CONTRIBUTING](../CONTRIBUTING) and [LICENSE](../LICENSE) for details.
+[Исходный код этого сайта](https://github.com/learnlatex/learnlatex.github.io/) находится на [GitHub](https://github.com/learnlatex/), пожалуйста, переходите на [CONTRIBUTING](../CONTRIBUTING) и [LICENSE](../LICENSE) для уточнения деталей.
 
-You can also [open an issue on GitHub](https://github.com/learnlatex/learnlatex.github.io/issues) or [email us](mailto:texfaq@texfaq.org) with suggestions.
+Вы так же можете [открыть issue на GitHub](https://github.com/learnlatex/learnlatex.github.io/issues) или [отправить нам электронное письмо](mailto:texfaq@texfaq.org) с предложениями по улучшению.
 
 ## Impressum
 
