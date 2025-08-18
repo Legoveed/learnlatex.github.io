@@ -16,13 +16,13 @@ toc-description: "Использовани LaTeX на русском."
 ## Использование русского языка в тексте
 
 LaTeX был создан для написания текстов на английском, но
-добавление русского языка аналогично ему и осуществляется
-с помощью добавления его к пакету `babel`.
+добавление русского языка несложно и осуществляется
+с помощью добавления его из пакета `babel`.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
-\usepackage[english, russian]{babel}
+\usepackage[russian]{babel}
 \begin{document}
 Some text and какой-то текст
 \end{document}
