@@ -1,30 +1,29 @@
 ---
 layout: "lesson"
-lang: "en"
-title: "Language-specifics for English"
-description: "This lesson shows language-specific details for typesetting with LaTeX in English. The focus is on hyphenation, where UK and US traditions are different."
+lang: "ru"
+title: "Специфика русского языка"
+description: "Этот урок показывает подробности, специфичные для работы в LaTeX на русском."
 next: "extra-01"
-toc-anchor-text: "English Language-specifics"
-toc-description: "Typesetting with LaTeX in English."
+toc-anchor-text: "Специфика русского языка"
+toc-description: "Использовани LaTeX на русском."
 ---
 
-# Language-specifics for English
+# Специфика русского языка
 
 <span
-  class="summary">This lesson shows language-specific details for typesetting with LaTeX in English with a focus on hyphenation, where UK and US traditions are different.</span>
+  class="summary">Этот урок показывает подробности, специфичные для работы в LaTeX на русском.</span>
 
-## Hyphenation
+## Использование русского языка в тексте
 
-LaTeX was written for use with English, and so there are very few
-language-specific issues facing authors in English. The main one
-is hyphenation: UK and US traditions are different. LaTeX starts out
-using US English patterns, but you can switch to UK ones using `babel`.
+LaTeX был создан для написания текстов на английском, но
+добавление русского языка аналогично ему и осуществляется
+с помощью добавления его к пакету `babel`.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
-\usepackage[UKenglish]{babel}
+\usepackage[english, russian]{babel}
 \begin{document}
-Some text
+Some text and какой-то текст
 \end{document}
 ```
