@@ -41,58 +41,57 @@ Project](https://www.latex-project.org/get/).
 
 ## Редакторы
 
-LaTeX files are simply plain text, so they can be edited with any text editor.
-However, it's most convenient to have an editor that is designed to work with
-LaTeX, as they provide features like one-click compilation of your files,
-built-in PDF viewers, and syntax highlighting. A really useful feature in all
-modern LaTeX editors is SyncTeX: the ability to click on your source and go
-straight to your PDF, or back the other way.
+Файлы LaTeX являются обычным текстом, так что могут быть изменены корректно в любом редакторе.
+Однако, наиболее удобно будет использовать специальные редакторы, созданные для работы в
+LaTeX, так как они предлагают такие возможности, как моментальная компилляция файлов,
+встроенное средство просмотра файлов PDF и подсветка синтаксиса. Действительно полезной функцией
+современных редакторов LaTeX является SyncTeX: возможность кликать по исходному коду и
+переходить непосредственно к PDF и обратно.
 
-There are many more LaTeX editors than we can hope to list here: there is a
-[comprehensive list on
+Сушествует гораздо больше редакторов LaTeX, чем мы можем здесь разместить: существует
+[понятный список
 StackExchange](https://tex.stackexchange.com/questions/339/latex-editors-ides).
-A basic editor, [TeXworks](https://tug.org/texworks), is included in TeX Live
-and MiKTeX on Windows and Linux, and [TeXShop](https://pages.uoregon.edu/koch/texshop/)
-is included in MacTeX.
+Базовый редактор - [TeXworks](https://tug.org/texworks), включающий TeX Live
+и MiKTeX на Windows и Linux и [TeXShop](https://pages.uoregon.edu/koch/texshop/)
+- включающий MacTeX.
 
 <p 
-  class="hint">Whichever editor you pick, we recommend you install it <i>after</i> your TeX system, so that the editor can 'find' the TeX system and set itself up correctly.</p>
+  class="hint">Какой бы редактор вы не выбрали, мы рекомендуем установить его <i>после</i> системы TeX, чтобы редактор смог 'найти' систему TeX и настроиться корректно.</p>
 
-## Working online
+## Работа онлайн
 
-There are several powerful online sites that allow you to avoid
-the need to install a TeX system and LaTeX editor at all. These websites
-work by letting you edit your files in the webpage, then they run LaTeX
-behind the scenes, and display the PDF that is produced.
+Есть несколько мощных сайтов, которые позволяют избежать
+необходимости установки системы TeX и редактора LaTeX вообще. Эти веб-сайты
+позволяют вам редактировать файлы на веб-странице, а затем запускают LaTeX
+и отображают созданный PDF-файл.
 
-Some of these sites combine LaTeX with features similar to a word processor,
-whereas others are more focused on letting you see the LaTeX code and
-so are closer to having a local installation.
+Некоторые из этих сайтов совмещают LaTeX с функциями, аналогичными текстовому редактору,
+в то время как другие больше сосредоточены на том, чтобы вы могли видеть код LaTeX и
+потому они ближе к локально установленным системам.
 
-There are systems that let you run LaTeX without needing to be logged in, and we
-are using one of those,
-[TeXLive.net](https://texlive.net), to let you
-edit and test the examples we give. For more complete work, the best online
-systems require that you register before you use them. That lets you save your
-work but also helps the sites not get overloaded. We have set up links so you
-can edit our examples using [Overleaf](https://www.overleaf.com), one of the
-major websites for LaTeX online. There are of course others:
-[Papeeria](https://papeeria.com/) is an example.
+Существуют системы, которые позволяют запускать LaTeX без необходимости входа в сервис и мы
+используем один из них,
+[TeXLive.net](https://texlive.net), чтобы вы могли
+изменять и запускать наши примеры. Для более полноценной работы наилучшие
+онлоай-системы требуют предварительной регистрации. Это позволяет сохранять
+работу и помогает сайтам не перегружаться. Мы встраиваем ссылки так, чтобы
+вы могли сохранять наши примеры с помощью [Overleaf](https://www.overleaf.com), одного
+из главных сайтов для онлайн-работы с LaTeX. Конечно, существует и другие, например
+[Papeeria](https://papeeria.com/).
 
-## Working with others
+## Работа с другими
 
-If you are planning to send your LaTeX sources to destinations which process
-them, such as publishers, conference organisers or pre-print servers
-(e.g. arXiv), you should check what restrictions they impose.
+Если вы планируете отправлять исходный код LaTeX куда-то для их обработки,
+например издателям, организаторам конференций или серверам препринтов
+(таким, как arXiv), вам следует проверить, какие ограничения они налагают.
 
-## Exercise
+## Упражнение
 
-Get yourself set up with a local LaTeX installation _or_ an account with
-an online LaTeX service. If you are using a local installation, you'll need
-to pick an editor too: we recommend starting with either TeXworks or TeX Shop
-(see above), then looking at other editors later once you know how _you_
-work best with LaTeX.
+Настройте локальную установку LaTeX _или_ учётную запись с помощью
+онлайн-сервиса LaTeX. Если вы используете локальную установку, вам понадобится
+выбрать редактор: мы рекомендуем начать с TeXworks или TeX Shop
+(см. выше), а затем посмотреть на другие редакторы, когда вы узнаете, как _вам_
+лучше всего работать с LaTeX.
 
-You'll be able to [run all of our other exercises in your browser](help.md), but we want
-to help you get working with real documents, so now is a great time to get
-yourself ready.
+Вы сможете [запускать все остальные примеры из браузера](help.md), но мы хотим
+помочь вам в работе с реальными документами, так что сейчас лучше время, чтобы подготовиться.
