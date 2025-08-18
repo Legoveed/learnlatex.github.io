@@ -1,48 +1,47 @@
 ---
 layout: "lesson"
-lang: "en"
-title: "What LaTeX is and how it works"
-description: "This lesson explains the basics of what LaTeX is and how it works in contrast to common word processors such as Microsoft Word or LibreOffice Writer."
-toc-anchor-text: "LaTeX basics"
-toc-description: "What LaTeX is and how it works."
+lang: "ru"
+title: "Что такое LaTeX и как он работает"
+description: "Этот урок объясняет основы того, что такое LaTeX и как он работает в сравнении с обычными текстовыми редакторами, такими как Microsoft Word или LibreOffice Writer."
+toc-anchor-text: "Основы LaTeX"
+toc-description: "Что такое LaTeX и как он работает."
 ---
 
-# LaTeX basics
+# Основы LaTeX
 
 <span
-  class="summary">This lesson explains the basics of what LaTeX is and how it works in contrast to common word processors such as Microsoft Word or LibreOffice Writer.</span>
+  class="summary">Этот урок объясняет основы того, что такое LaTeX и как он работает в сравнении с обычными текстовыми редакторами, такими как Microsoft Word или LibreOffice Writer.</span>
 
-Unlike common word processors such as Microsoft Word or LibreOffice Writer, LaTeX
-usually does not provide WYSIWYG ('What You See Is What You Get'). With LaTeX
-one takes plain text and enriches it with markup. This markup tells LaTeX
-about the logical meaning of certain elements of the text, similar to the way
-HTML does.
+В отличие от обычных текстовых редакторов, таких как Microsoft Word или LibreOffice Writer, LaTeX
+не является WYSIWYG ('What You See Is What You Get' - 'что видишь, то и получаешь'). С помощью LaTeX
+вы берёте простой текст и улучшаете его с помощью разметки. Эта разметка рассказывает LaTeX
+о логике тех или иных элементов текста, сравнимо с тем, как это происходит в HTML.
 
-Take for example the element `<h2>` indicating a new section in an HTML document.
-LaTeX also has a command for this; here one would use the `\section` command.
+Например, возьмём элемент `<h2>`, показывающий начало новой секции в документе HTML.
+LaTeX тоже имеет команду для такого - здесь можно использовать команду `\section`.
 
-## The LaTeX workflow
+## Работа в LaTeX
 
-Because LaTeX files are not the document itself but rather instructions
-on what each part of the document should be, you don't normally give other
-people your LaTeX file itself. Instead, after writing your LaTeX _source_, you
-run LaTeX on the file (normally using a program called `pdflatex`) to
-create a PDF file. This PDF is then what you send to others.
+Так как файлы LaTeX сами по себе являются не документами, а инструкциями
+о том, какой должна быть каждая часть документа, обычно вам не нужно отправлять
+другим людям сами файлы LaTeX. Вместо этого, после написания _исходного кода_ LaTeX вы
+запускает LaTeX с вашим файлом (обычно используя программу с названием `pdflatex`), чтобы
+создать файл PDF. Этот PDF - как раз то, что вы можете показывать другим.
 
-Different people use different ways to describe this process. As using LaTeX
-is a bit like programming, it's often called 'compiling' your document, although
-'typesetting' is more accurate.
+Разные люди использует разные способы описания этого процесса. Использование LaTeX
+немного похоже на программирование, обычно оно называется 'компилляцией' документа, хотя
+термин 'разметка' более точен.
 
-## Multiple LaTeX runs
+## Множественные запуски LaTeX
 
-For simple files, you only need to typeset your file once to get the completed
-PDF. But once you start adding more complicated things, like cross-references,
-citations, figures, and tables of contents, you might need to run LaTeX more
-than once. We'll tell you when that's the case.
+Для простых задач вам понадобится запустить файл один раз, чтобы получить итоговый
+PDF. Но когда вы начнёте добавлять более сложные вещи, такие как перекрёстные ссылки,
+цитаты, фигуры или раздел с содержанием, вам понадобится запускать LaTeX более
+одного раза. Мы расскажем об этом, когда это понадобится.
 
-## LaTeX or pdfLaTeX or ...
+## LaTeX или pdfLaTeX или ...
 
-In the [next lesson](lesson-02), we are going to see that LaTeX is not a
-single program. To keep things simple, we are going to focus on one particular
-LaTeX Program, pdfLaTeX, for creating your PDFs. We will look at some other
-programs, and why you might want to use them, later in the course.
+В [следующем уроке](lesson-02) мы увидим, что LaTeX - это
+не одна единая программа. Чтобы не усложнять, мы сосредоточимся на одной конкретной
+LaTeX-программе, pdfLaTeX - что создавать файлы PDF. Мы рассмотрим некоторые другие
+программы и то, почему вам они могут понадобиться, позже в этом курсе.
