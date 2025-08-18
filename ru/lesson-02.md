@@ -1,46 +1,45 @@
 ---
 layout: "lesson"
-lang: "en"
-title: "Working with LaTeX"
-description: "This lesson explains what a TeX system is and which are the most common ones, it lists some of the text editors usually used with LaTeX, and the online systems which have integrated editors."
-toc-anchor-text: "Working with LaTeX"
-toc-description: "TeX systems and LaTeX text editors."
+lang: "ru"
+title: "Работа в LaTeX"
+description: "Этот урок объясняет, что такое система TeX и какие системы наиболее распространены, так же приведён список текстовых редакторов, чаще всего используемых для LaTeX и онлайн-систем, которые имеют встроенные редакторы."
+toc-anchor-text: "Работа в LaTeX"
+toc-description: "Системы TeX и текстовые редакторы LaTeX."
 ---
 
-# Working with LaTeX
+# Работа в LaTeX
 
 <span
-  class="summary">This lesson explains what a TeX system is and which are the most common ones, it lists some of the text editors usually used with LaTeX, and the online systems which have integrated editors.</span>
+  class="summary">Этот урок объясняет, что такое система TeX и какие системы наиболее распространены, так же приведён список текстовых редакторов, чаще всего используемых для LaTeX и онлайн-систем, которые имеют встроенные редакторы.</span>
 
 
-Unlike many computer programs, LaTeX is not a single application containing
-'everything' in one. Instead, there are separate programs that work together.
-We can divide those up into two things you actually need:
+В отличие от многих компьютерных программ, LaTeX - не единое приложение, содержащее
+'всё' в одном. Наоборот, существуют различные программы, которые работают вместе.
+Мы можем выделить из них на две вещи, которые вам сейчас понадобятся:
 
-- A _TeX system_
-- A text editor (often a LaTeX-specific one)
+- _Система TeX_
+- Текстовый редактор (обычно специально для LaTeX)
 
-## LaTeX systems
+## Системы LaTeX
 
-The core of working with LaTeX is having a TeX system available. A TeX system is a set
-of 'behind the scenes' programs and files that are needed to make LaTeX work, but
-most of the time you don't directly 'run' this.
+Ядро работы с LaTeX содержит систему TeX. Система TeX - набор
+программ, работающих 'за кулисами', необходимых для работы LaTeX, которые
+в большинстве случаев вам не нужно непосредственно 'запускать'.
 
-There are two major TeX systems available today,
-[MiKTeX](https://miktex.org/) and [TeX Live](https://tug.org/texlive). Both
-are available for Windows, macOS and Linux.
-MiKTeX has a strong background on Windows;
-on macOS, TeX Live is bundled into a larger collection called [MacTeX](http://www.tug.org/mactex/).
-There are [advantages to each
-system](https://tex.stackexchange.com/questions/20036), and you might want to
-look at [some more advice from the LaTeX
+На текущий момент, доступны две главные системы TeX,
+[MiKTeX](https://miktex.org/) и [TeX Live](https://tug.org/texlive). Обе
+доступны под Windows, macOS и Linux.
+MiKTeX строго заточен под Windows;
+для macOS, TeX Live включён в большой сборник под названием [MacTeX](http://www.tug.org/mactex/).
+У каждой системы есть [преимущества](https://tex.stackexchange.com/questions/20036), 
+и вы можете прочитать [советы от LaTeX
 Project](https://www.latex-project.org/get/).
 
-As TeX Live is available on all common platforms, and as it has some performance
-advantages, we recommend that if you are unsure which system to install, you
-choose TeX Live.
+Так как TeX Live доступен на большинстве платформ и так как у него есть преимущества
+в производительности, если вы не уверены, какую систему устанавливать, мы рекомендуем вам
+выбрать TeX Live.
 
-## Editors
+## Редакторы
 
 LaTeX files are simply plain text, so they can be edited with any text editor.
 However, it's most convenient to have an editor that is designed to work with
