@@ -1,114 +1,116 @@
 ---
 layout: "lesson"
-lang: "en"
-title: "Basic LaTeX document structure"
-description: "This lesson shows the basic structure of a LaTeX document, and how to build it into a PDF file, as well as the main special characters used to control LaTeX."
-toc-anchor-text: "Document structure"
-toc-description: "The basic structure of a document."
+lang: "ru"
+title: "Основная структура LaTeX-документа"
+description: "Этот урок показывает основную структуру LaTeX-документа, то, как собирать его в файл PDF, и основные символы, ипользуемые в LaTeX."
+toc-anchor-text: "Структура документа"
+toc-description: "Основная структура документа."
 ---
 
-# LaTeX document structure
+# Структура документа в LaTeX
 
 <span
-  class="summary">This lesson shows the basic structure of a LaTeX document, and how to build it into a PDF file, as well as the main special characters used to control LaTeX.</span>
+  class="summary">Этот урок показывает основную структуру LaTeX-документа, то, как собирать его в файл PDF, и основные символы, ипользуемые в LaTeX.</span>
 
-Your first LaTeX document is going to be very simple: the idea is to show you
-how a document looks and how to typeset it successfully. It is also your
-first chance to see [how to use the examples](help) here on `learnlatex.org`.
+Ваш первый документ LaTeX будет очень простым: идея в том, чтобы показать
+как документ выглядит и как успешно его записать. Кроме того, это ваш первый шанс
+увидеть [как использовать примеры](help) на `learnlatex.org`.
 
-If you are using a local LaTeX installation, in your editor create a new file
-called `first.tex`, and either copy–paste the text below or type it in.
+Если вы используете локально установленную систему LaTeX, создайте в редакторе новый файл
+с названием `first.tex` и просто скопируйте или перепечатайте приведённый ниже текст.
 
-If you are using the online system, you can just click on the ‘Run at TeXLive.net’
-or ‘Open in Overleaf’ buttons in the example to try it out!
+Если вы используете онлайн-систему, просто кликните на кнопку ‘Запустить на TeXLive.net’
+или ‘Открыть в Overleaf’ в примере, чтобы попробовать!
 
 <p
-  class="hint">We suggest you try out the online options even if you have set up LaTeX locally; this is a good chance to see how the different options work.</p>
+  class="hint">Предлагаем попробовать онлайн-способ, даже если вы установили LaTeX локально; это хорошая возможность увидеть, как по-разному они работают.</p>
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+\usepackage[russian]{babel}
 
 \begin{document}
-Hey world!
+Привет, мир! 
 
-This is a first document.
+Это первый документ.
 \end{document}
 ```
 
-Save the file and typeset it to a PDF document; if you are using a local LaTeX
-installation, the exact button to press will depend on the editor you have
-picked. You should get a PDF file that contains the text above _plus_ a page
-number; LaTeX adds that automatically.
+Сохраните файл и сконвертируйте его в документ PDF; если вы используете локальную
+установку LaTeX, то нужная кнопка зависит от редакторы, который вы выбрали.
+Вы должны получить на выходе файл PDF, содержащий текст _плюс_ номер
+страницы; LaTeX автоматически его добавляет.
 
-View the output `first.pdf` with whatever program you prefer for PDF viewing.
-Looks great; congratulations!
+Посмотрите вывод в `first.pdf` в любой программе для просмотра PDF.
+Выглядит круто, поздравляем!
 
-If you want to get HTML rather than PDF output, take a look at the
-[help](./help) for how you can do that.
+Если вы хотите получить вывод в формате HTML, а не PDF, загляните в
+[help](./help), чтобы узнать, как это сделать.
 
-## Handling errors
+## Обработка ошибок
 
-Errors happen.
-Check that you have entered each line in the text file exactly as written above.
-Sometimes seemingly small input changes give large changes in the
-result, including causing a document to not work.
-If you are stuck, try erasing the document and copying it fresh from the
-lines above.
+Ошибки случаются.
+Проверьте, что вы ввели каждую строку текста в файл точно так же, как написано выше.
+Иногда кажущиеся небольшими изменения ввода дают огромные изменения в
+результате, включая невозможность создать документ.
+Если вы застряли, попробуйти стереть весь текст и заново скопировать строки выше.
 
-If your LaTeX typesetting run ends with a question mark then you can get out by
-typing `x` and `<Enter>`.
+Если запуск вашего ввода в LaTeX заканчивается знаком вопроса, вы можете выйти
+нажав `x` или `<Enter>`.
 
-LaTeX's error messages try to be helpful, but they are not the same as messages
-in word processors. Some editors also make it hard to see the 'full' text of an
-error, which can hide key details. LaTeX always creates a log of what it is
-doing; this is a text file ending in `.log`. You can always see the full  error
-messages there, and if you have a problem, expert LaTeX users will often ask for a
-copy of your log file.
+Сообщения об ошибках в LaTeX стараются быть полезными, но они не похожи на сообщения
+в текстовых редакторах. Кроме того, некоторые редакторы не дают возможности увидеть 'полный' текст
+ошибки, что может скрыть ключевые детали. LaTeX всегда создаёт лог с тем, что
+он делает; это текстовый файл, оканчивающийся на `.log`. Вы всегда можете посмотреть там полное
+сообщение оби ошибке, и, если у вас есть проблема, опытные пользователи LaTeX всегда попросят
+у вас копию файла логов.
 
 <p
-  class="hint">We cover more about dealing with errors in <a href="./lesson-15">lesson 15</a>.</p>
+  class="hint">Мы расскажем больше о том, как бороться с ошибками, в <a href="./lesson-15">уроке 15</a>.</p>
 
-## What you've got
+## Что вы получили
 
-The first document shows the basics.
-LaTeX documents are a mixture of text and commands.
-The commands start with a backslash
-and sometimes have arguments in curly braces
-(or sometimes optional arguments in square brackets).
-Then you get an output PDF by telling LaTeX to typeset your file.
+Первый документ показывает основы.
+Документы LaTeX - это смесь текста и команд.
+Команды начинаются с обратного слэша
+и иногда принимают аргумент в фигурных скобках
+(или, иногда, необязательные аргументы в квадратных скобках).
+Затем вы получаете вывод в PDF, сообщив LaTeX о необходимости вывести файл.
 
-Every LaTeX document has a `\begin{document}` and a matching
+Каждый документ LaTeX содержит `\begin{document}` и соответствующее
 `\end{document}`.
-Between these two is the *document body*, where your content goes.
-Here the body has two paragraphs (in LaTeX you separate paragraphs
-with one or more blank lines).
-Before `\begin{document}` is the *document preamble*,
-which has code to set up the document layout.
-The `\usepackage` command is described in a [later lesson](lesson-06)
-it is used in most examples on this site to set up the font encoding.
+Между ними находится *тело документа*, где находится содержимое.
+Здесь тело содержит два параграфа (в LaTeX вы отделяете параграфы
+с помощью одной или нескольких пустых строк).
+Перед `\begin{document}` находится *преамбула документа*,
+содержащая настройки макета документа.
+Команда `\usepackage` описана в более [позднем уроке](lesson-06).
+Она используется в большинстве примеров на этом сайте, чтобы установить кодировку
+шрифта и возможность вывода текста на русском.
 
-LaTeX has other `\begin{...}` and `\end{...}` pairs; these are
-called *environments*.
-You must match them so that for every `\begin{x}` there has to be an `\end{x}`.
-If you nest them, then you must have `\end{y} ... \end{x}` to match
-`\begin{x} ... \begin{y}`, i.e. the `\begin` and `\end` statements matching
-in order.
+LaTeX включает другие пары `\begin{...}` и `\end{...}`; они
+называются *среды*.
+Вы должны сопоставлять их так, чтобы на каждое `\begin{x}` приходилось по одному `\end{x}`.
+Если вы вкладываете их друг в друга, то вам надо будет иметь `\end{y} ... \end{x}`, чтобы
+сопоставить с `\begin{x} ... \begin{y}`, т.е. команды `\begin` и `\end` сопоставляются в 
+соответственном порядке.
 
-We can add comments to a LaTeX file by starting them with `%`; let's use
-that to show the structure:
+Мы можем добавлять комментарии в файл LaTeX, начав с `%`; давайте используем
+их, чтобы показать структуру:
 
 ```latex
-\documentclass[a4paper,12pt]{article} % The document class with options
-% select T1 font encoding: suitable for Western European Latin scripts
+\documentclass[a4paper,12pt]{article} % Класс документа с аргументами
+% Выбирайте кодировку шрифта T1: подходит для латинского и кириллического алфавитов
 \usepackage[T1]{fontenc}
-% A comment in the preamble
+\usepackage[russian]{babel}
+% Комментарий в преамбуле
 \begin{document}
-% This is a comment
-This is   a simple
-document\footnote{with a footnote}.
+% Это комментарий
+Это простой
+документ\footnote{со сноской}.
 
-This is a new paragraph.
+Это новый параграф.
 \end{document}
 ```
 
