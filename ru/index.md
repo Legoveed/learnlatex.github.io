@@ -2,42 +2,42 @@
 layout: "start"
 lang: "ru"
 title: Изучение LaTeX онлайн бесплатно с помощью уроков для новичков
-description: "Изучите LaTeX за 16 уроков для новичков. Сделайте первые шаги в LaTeX, системе составления документов, созданной для документов высшего качества."
+description: "Изучите LaTeX за 16 уроков для новичков. Сделайте первые шаги в LaTeX, системе составления документов, созданной для работ высшего качества."
 permalink: /ru/
 ---
 
 # Learn LaTeX
 
-<h2 class="heading__introduction">Take your first steps with LaTeX, a document preparation system designed to produce high-quality typeset output.</h2>
+<h2 class="heading__introduction">Сделайте первые шаги в LaTeX, системе составления документов, созданной для работ высшего качества.</h2>
 
 <div
   class="text-columns">
   <section>
-    <h3 class="text-columns__heading">Introduction</h3>
-    <p>LaTeX can be scary for new users as it is <em>not</em> a word processor, 
-    and because it is not a single program. Our aim is to help you get 
-    started with LaTeX: the basics, installation, writing code, without 
-    trying to show you <em>everything</em> in one go. <a href="./mission">More on our mission &hellip;</a></p>
+    <h3 class="text-columns__heading">Вступление</h3>
+    <p>LaTeX может казаться страшным для новичков, потому что это <em>не</em> текстовый редактор 
+    и потому что это не одно приложение. Наша цель - помочь вам 
+    начать пользоваться LaTeX: основы, установка, написание кода, а не 
+    пытаться показать <em>всё</em> сразу. <a href="./mission">Больше о нашей задаче &hellip;</a></p>
   </section>
   <section>
-    <h3 class="text-columns__heading">How it works</h3>
-      <p>We have taken the most important things you will need to know, and made them into <em>16 short lessons</em>, which should not take long to cover. In each lesson, we give lots of examples of what you would write. You can edit and run the examples in this website. <a href="./help#examples">More on examples &hellip;</a></p>
+    <h3 class="text-columns__heading">Как это работает</h3>
+      <p>Мы взяли наиболее важные вещи, которые могут вам понадобиться, и поместили их в <em>16 коротких уроков</em>, которые не займут много времени. В каждом уроке мы привдоим множество примеров того, что вы сможете написать. Вы можете редактировать и запускать примеры прямо на нашем сайте. <a href="./help#examples">Больше о примерах &hellip;</a></p>
   </section>
 </div>
 
-<h2 class="heading__toc" id="toc">Lessons</h2>
+<h2 class="heading__toc" id="toc">Уроки</h2>
 
-<p class="paragraph__toc">We have included a <b>More on this topic</b> page for each lesson. This extra information is there to support you when you need the detail, but should not get in your way if you don't.</p>
+<p class="paragraph__toc">Мы добавили страницу <b>Больше по теме</b> в каждый урок. Это дополнительная информация в помощь вам, когда вам нужны подробности, но если вы её не посмотрите, то ничего не упустите.</p>
 
-{% include toc-lessons.html prefix="en/lesson" %}
+{% include toc-lessons.html prefix="ru/lesson" %}
 
-<h2 class="heading__toc">Additional lessons</h2>
+<h2 class="heading__toc">Дополнительные уроки</h2>
 <ul class="lessons-toc">
   {% include toc-additional-lessons.html prefix="ru/language" %}
   {% include toc-additional-lessons.html prefix="ru/extra" %}
 </ul>
 
-## Going further
+## Дальнейшее изучение
 
-Getting a book about LaTeX is the best way to learn the details. We cover getting more information, along with book recommendations, in the [last lesson](./lesson-16).
+Лучший способ подробно изучить LaTeX - приобрести книгу. Мы рассмотрим изучение дополнительной информации и рекомендации по книгам в [последнем уроке](./lesson-16).
 
